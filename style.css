@@ -1,0 +1,10 @@
+
+* {
+    margin: 5px;
+}
+
+button {
+    margin: 0 5px;
+    border: 2px solid green;
+
+}

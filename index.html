@@ -1,24 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>TIE Academy</title>
-        <!-- Added link to the jQuery Library -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-        <!-- Added a link to Bootstrap-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    
-        <!-- Added a link to our external stylesheet-->
-        <link rel="stylesheet" href="style.css">
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- Added a link to our external stylesheet-->
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<h1>Tie Academy</h1>
 
-    
+<body>
+    <div class="row">
+        <div class="col-md-6"></div>
+
+        <div class="col">
+            <h1>TIE Academy</h1>
+        </div>
+    </div>
+    <div class="row">
+        <button>
+            <p>TIE Bomber</p>
+            <img id="TIE_Bomber" class="img" src="./assets/images/TIE_Bomber.png" alt="TIE_Bomber" height="150px" width="200px">
+            <div>HP: </div><span id="TIE_BomberHP">120</span>
+        </button>
+        <button>
+            <p>TIE Incterceptor</p>
+            <img id="TIE_Interceptor" class="img" src="./assets/images/TIE_Interceptor.png" alt="TIE_Interceptor" height="150px"
+                width="230px">
+                <div>HP: </div><span id="TIE_InterceptorHP">120</span>
+        </button>
+        <button>
+            <p>TIE Advanced</p>
+            <img id="TIE_advanced" class="img" src="./assets/images/TIE_advanced.png" alt="TIE_advanced" height="150px"
+                width="150px">
+                <div>HP: </div><span id="TIE_advancedHP">120</span>
+        </button>
+        <button>
+            <p>TIE fighter</p>
+            <img id="TIE_fighter" class="img" src="./assets/images/TIE_fighter.png" alt="TIE_fighter" height="150px" width="150px">
+            <div>HP: </div><span id="TIE_fighterHP">120</span>
+        </button>
+
+    </div>
+    <div class="row">
+        <div class="col">Your Character</div>
+    </div>
+    <div class="row">
+        <div class="col"><span id="character"></span></div>
+    </div>
+
+    <div class="row">
+        <div class="col">Remaining Enemies</div>
+    </div>
+    <div class="row">
+        <div class="col"><span id="remaining-enemies"></span></div>
+    </div>
+    <div class="row">
+        <div class="col">Fight Section<span id="fight-section"></span></div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <button id="attack-button">
+                Attack!
+            </button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">Defender</div>
+    </div>
+    <div class="row">
+        <div class="col"><span id="Defender"></span></div>
+    </div>
+
+
     <script src="./assets/javascript/game.js"></script>
 </body>
+
 </html>
